@@ -17,6 +17,8 @@
     "strictNullChecks": false,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node"]
   }
 }
