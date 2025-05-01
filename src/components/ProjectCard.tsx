@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import { Github, ExternalLink, Folder } from "lucide-react";
 import { motion } from "framer-motion";
 import VanillaTilt from "vanilla-tilt";
