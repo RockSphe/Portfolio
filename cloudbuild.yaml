@@ -1,5 +1,7 @@
 steps:
 - name: 'gcr.io/k8s-skaffold/pack'
-  args: ['build', 'gcr.io/$PROJECT_ID/portfolio-app', '--path', '.']
+  entrypoint: 'pack'
+  args: ['build', 'gcr.io/$PROJECT_ID/portfolio-app', '--path=.', '--builder=gcr.io/buildpacks/builder:v1']
 images:
 - 'gcr.io/$PROJECT_ID/portfolio-app'
+
